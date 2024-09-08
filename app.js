@@ -17,6 +17,7 @@ app.use(cors({
 
 app.use(bodyParser.json());
 
+
 // Setup routes with correct prefix for user routes
 app.use(taskRouters);
 app.use('/users', userRouters);
